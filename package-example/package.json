@@ -1,5 +1,5 @@
 {
-  "name": "4-node.js-fundamentals-package-management",
+  "name": "package-example",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,15 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "tsc -w",
     "start": "nodemon dist/app.js",
-    "dev": "concurrently \"npm run watch\" \"npm run dev\""
+    "dev": "concurrently \"npm run watch\" \"npm run dev\" "
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "@types/node": "^20.8.7",
-    "concurrently": "^8.2.2"
-  },
   "dependencies": {
     "axios": "^1.5.1"
   }
